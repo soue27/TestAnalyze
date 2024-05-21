@@ -39,7 +39,7 @@ def prom():
     df5 = df3[df3['Договор'].isnull()]
     df5.to_excel('files/Не принятые пром.xlsx')
     print(df5.head(10))
-
+    
 
 if __name__ == "__main__":
     # byt()
